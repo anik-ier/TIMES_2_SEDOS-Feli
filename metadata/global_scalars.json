@@ -1,0 +1,394 @@
+{
+    "name": "global_scalars",
+    "title": "sedos_global_scalars",
+    "id": "https://openenergy-platform.org/dataedit/view/model_draft/global_scalars",
+    "description": "Dataset describes scalar techno-economic and scenario data of technology/process: Global scalars data",
+    "language": [
+        "en-GB"
+    ],
+    "subject": [
+        {
+            "name": "Transport Sector",
+            "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000422/"
+        },
+        {
+            "name": "Passenger Train",
+            "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010282"
+        }
+    ],
+    "keywords": [
+        "SEDOS",
+        "input_data",
+        "AP8",
+        "Transport",
+        "oedatamodel-parameter"
+    ],
+    "publicationDate": "2024-12-09",
+    "context": {
+        "homepage": "https://sedos-project.github.io/.github/",
+        "documentation": "https://sedos-project.github.io/.github/",
+        "sourceCode": "https://github.com/sedos-project",
+        "contact": "ulrich.fahl@ier.uni-stuttgart.de",
+        "grantNo": null,
+        "fundingAgency": "Bundesministerium f\u00c3\u00bcr Wirtschaft und Klimaschutz (BMWK)",
+        "fundingAgencyLogo": "https://en.wikipedia.org/wiki/Federal_Ministry_for_Economic_Affairs_and_Climate_Action#/media/File:BMWi_Logo_2021.svg",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": "Germany",
+        "extent": "DE",
+        "resolution": "NUTS-0"
+    },
+    "temporal": {
+        "referenceDate": "2021",
+        "timeseries": [
+            {
+                "start": "2021-01-01",
+                "end": "2070-12-31",
+                "resolution": "yearly",
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "OEDatamodel-parameter",
+            "description": "Parameter data model for secondary input scalars and timeseries",
+            "path": "https://github.com/sedos-project/oedatamodel/tree/main/oedatamodel-parameter",
+            "licenses": [
+                {
+                    "name": "CC0-1.0",
+                    "title": "Creative Commons Zero v1.0 Universal",
+                    "path": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                    "instruction": "You are free: To Share, To Create, To Adapt",
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Times Transport Model",
+            "description": "Times Transport Model is based on TIMES and focuses on German industry energy system",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "Creative Commons Attribution 4.0 International",
+                    "title": "CC BY 4.0",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": null,
+                    "attribution": "@Energy Economics and Social Analysis(ESA), IER, University of Stuttgart 2024"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1",
+            "instruction": "You are free to: Share- copy and redistribute the material in any medium or format for any purpose, even commercially. Adapt - remix, transform, and build upon the material for any purpose, even commercially.",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Felicitas Ortlieb",
+            "email": "felicitas.ortlieb@ier.uni-stuttgart.de",
+            "date": "2024-12-09",
+            "object": "data and metadata for transport",
+            "comment": "Provided data and metadata for train transport"
+        },
+        {
+            "title": "Kerstin Haler",
+            "email": "kerstin.haller@ier.uni-stuttgart.de",
+            "date": "2024-12-09",
+            "object": "data and metadata for transport",
+            "comment": "Provided data and metadata for air and ship transport"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.global_scalars",
+            "path": "https://openenergy-platform.org/dataedit/view/model_draft/global_scalars",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "bigint",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "region",
+                        "description": "Country or regionx",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "year",
+                        "description": "Year",
+                        "type": "integer",
+                        "unit": "a",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "type",
+                        "description": "Type of process",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "wacc",
+                        "description": "Percentage of costs for capital after taxes. Used to calculate annuity factor for investment costs.",
+                        "unit": "%",
+                        "type": "text",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "population",
+                        "description": "Population (at the end of the year)",
+                        "unit": "Million units",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "gdp",
+                        "description": "Gross domestic product",
+                        "unit": "B\u20ac",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "gdp_per_capita",
+                        "description": "Gross domestic product per capita",
+                        "unit": "\u20ac",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "emission_reduction_target_wo_lulucf",
+                        "description": "Total emissions target (without LULUCF)",
+                        "unit": "Mt CO2-eq.",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "emission_reduction_target_wo_lulucf_waste",
+                        "description": "Total emissions target (without LULUCF and Waste)",
+                        "unit": "Mt CO2-eq.",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "households",
+                        "description": "Number of Households",
+                        "unit": "Million units",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "person_per_household",
+                        "description": "Household size",
+                        "unit": "person/household",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "living_space",
+                        "description": "Living space in residential and non-residential buildings",
+                        "unit": "million square meter",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "living_space_per_capita",
+                        "description": "Living space per capita",
+                        "unit": "square meter/capita",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "residential_and_nonresidential_apartments",
+                        "description": "Apartments in residential and non-residential buildings",
+                        "unit": "Million units",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "empty_second_residence",
+                        "description": "Empty residence / second residence",
+                        "unit": "Million units",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "apartments_in_residential_buildings",
+                        "description": "Apartements in residential buildings",
+                        "unit": "Million units",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "apartment_share",
+                        "description": "Share of apartments",
+                        "unit": "%",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "living_space_in_residential_buildings",
+                        "description": "Living space in residential buildings",
+                        "unit": "million square meter",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "living_space_share",
+                        "description": "Share of living space",
+                        "unit": "%",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "living_space_in_residential_buildings_per_capita",
+                        "description": "Living space in residential buildings per capita",
+                        "unit": "square meter/capita",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "residential_building",
+                        "description": "Residential building",
+                        "unit": "Million units",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "apartments_per_residential_building",
+                        "description": "Apartments per residential building",
+                        "unit": "unit",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "equivalence_factor_co2_ch4",
+                        "description": "CO2 Equivalent factor for CH4",
+                        "unit": "CO2-eq.",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "equivalence_factor_co2_n2o",
+                        "description": "CO2 Equivalent factor for N2O",
+                        "unit": "CO2-eq.",
+                        "type": "float",
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "bandwidth_type",
+                        "description": "Bandwidth Type",
+                        "type": "json",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "version",
+                        "description": "Version",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "method",
+                        "description": "Method",
+                        "type": "json",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "source",
+                        "description": "Source",
+                        "type": "json",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    },
+                    {
+                        "name": "comment",
+                        "description": "Comment",
+                        "type": "json",
+                        "unit": null,
+                        "isAbout": [],
+                        "valueReference": []
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": ";",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/develop/metadata/latest/context.json",
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "oemetadata_v1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss\u00c2\u00b1hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}

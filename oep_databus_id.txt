@@ -1,0 +1,16 @@
+OEP Username: 016anik
+OEP Token: 03bcd3db49f8d0a607782cf8fd23852e334b61e5
+Databus Username: anik
+Databus API Key: d8b183e5-b097-449f-9858-dc38206b795c
+Databus Group: SEDOS_mobility_sector
+
+old:
+Databus API Key: ded256ff-920d-4142-963c-a965910cb3d5
+Databus Group: SEDOS_Industry_draft
+
+
+C:\Users\ac141435\Desktop\TIMES_2_SEDOS-KF\delete
+
+C:\Users\ac141435\Desktop\TIMES_2_SEDOS-KF\trial_upload
+
+C:\Users\ac141435\Desktop\TIMES_2_SEDOS-KF

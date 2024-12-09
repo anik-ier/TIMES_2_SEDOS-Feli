@@ -1,0 +1,71 @@
+id;region;year;type;conversion_factor_sec_hydrogen;conversion_factor_sec_elec;conversion_factor_sec_lng;conversion_factor_sec_methanol;conversion_factor_sec_ethanol;conversion_factor_sec_ammonia;conversion_factor_sec_diesel;conversion_factor_exo_water_tkm;capacity_tra_inst_0;optional_limitations;cost_fix_tra;cost_inv_tra;cost_var_tra;lifetime;market_share_range;mileage;tonnage;wacc;ef_sec_diesel_emi_co2_f_tra;ef_sec_diesel_emi_ch4_f_tra;ef_sec_diesel_emi_n2o_f_tra;ef_sec_lng_emi_co2_f_tra;ef_sec_lng_emi_ch4_f_tra;ef_sec_lng_emi_n2o_f_tra;ef_sec_methanol_emi_co2_f_tra;bandwidth_type;version;method;source;comment
+1;DE;2021;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8Kempf2023', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8Kempf2023', 'occupancy_rate': '8Kempf2023'};{}
+2;DE;2024;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+3;DE;2027;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+4;DE;2030;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+5;DE;2035;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+6;DE;2040;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+7;DE;2045;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+8;DE;2050;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+9;DE;2060;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+10;DE;2070;tra_water_fcev_frei_hydrogen_0;1;;;;;;;1.17;0;;58.464;;417.6;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+11;DE;2021;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+12;DE;2024;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+13;DE;2027;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+14;DE;2030;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+15;DE;2035;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+16;DE;2040;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+17;DE;2045;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+18;DE;2050;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+19;DE;2060;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+20;DE;2070;tra_water_ice_frei_lng_0;;;1;;;;;13.79;0;;97.44;;696;50;;0.0002;2100;global_scalars.wacc;;;;global_emission_factors.lng_fuel;0.00704;0.0017;;{};srd_range_draft;{};{};{}
+21;DE;2021;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+22;DE;2024;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+23;DE;2027;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+24;DE;2030;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+25;DE;2035;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+26;DE;2040;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+27;DE;2045;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+28;DE;2050;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+29;DE;2060;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+30;DE;2070;tra_water_ice_frei_methanol_0;;;;1;;;;10.05;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+31;DE;2021;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+32;DE;2024;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+33;DE;2027;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+34;DE;2030;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+35;DE;2035;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+36;DE;2040;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+37;DE;2045;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+38;DE;2050;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+39;DE;2060;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+40;DE;2070;tra_water_ice_frei_ethanol_0;;;;;1;;;7.41;0;;49.816;;355.83;50;;0.0002;2100;global_scalars.wacc;;;;;;;global_emission_factors.ethanol_fuel;{};srd_range_draft;{};{};{}
+41;DE;2021;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+42;DE;2024;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+43;DE;2027;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+44;DE;2030;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+45;DE;2035;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+46;DE;2040;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+47;DE;2045;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+48;DE;2050;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+49;DE;2060;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+50;DE;2070;tra_water_ice_frei_ammonia_0;;;;;;1;;10.13;0;;105.113;;750.81;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+51;DE;2021;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+52;DE;2024;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+53;DE;2027;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+54;DE;2030;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+55;DE;2035;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+56;DE;2040;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+57;DE;2045;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+58;DE;2050;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+59;DE;2060;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+60;DE;2070;tra_water_ice_frei_diesel_0;;;;;;;1;4.65;2.744;;48.72;;348;50;;0.0002;2100;global_scalars.wacc;global_emission_factors.diesel_fuel;0.87;0.56;;;;;{};srd_range_draft;{};{'capacity_tra_inst_0': '8BDB2022', 'cost_fix_tra': '8Kempf2023', 'cost_var_tra': '8Kempf2023', 'lifetime': '8Kempf2023', 'mileage': '8BDB2022', 'occupancy_rate': '8BDB2022'};{}
+61;DE;2021;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+62;DE;2024;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+63;DE;2027;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+64;DE;2030;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+65;DE;2035;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+66;DE;2040;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+67;DE;2045;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+68;DE;2050;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+69;DE;2060;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
+70;DE;2070;tra_water_ice_frei_hydrogen_0;1;;;;;;;1.17;0;;92.239;;658.851;50;;0.0002;2100;global_scalars.wacc;;;;;;;;{};srd_range_draft;{};{};{}
